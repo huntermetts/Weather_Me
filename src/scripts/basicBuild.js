@@ -28,6 +28,12 @@ const basicBuild = {
         dIcon.innerHTML="&#176"
         degrees.appendChild(dIcon);
 
+        let desc = document.createElement("h3")
+        desc.setAttribute("id", "desc")
+        desc.innerHTML = "Sunny"
+        middleContent.appendChild(desc);
+        
+
     }
 }
 
