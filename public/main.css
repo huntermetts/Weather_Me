@@ -9,7 +9,7 @@ body{
     color:white;
     opacity: .95;
     background-position:center;
-    
+    background-color: #151C2F;
 }
 
 h1, h1, h3, span{
@@ -63,4 +63,23 @@ span{
     margin-top: -12rem;
 }
 
+button, input{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: .1rem;
+    line-height: 1rem;
+    margin: 1rem;
+    width: 15%;
+    padding: 7px 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
 
+h4, button, input{
+    margin-top: -15rem;
+    margin-left: 2.5rem;
+}
+
+h4{
+    line-height: 1.5rem;
+}

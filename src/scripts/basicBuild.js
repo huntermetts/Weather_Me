@@ -32,6 +32,20 @@ const basicBuild = {
         desc.setAttribute("id", "desc")
         desc.innerHTML = conditions
         middleContent.appendChild(desc);
+    },
+
+    formBuild(){
+        let searchInputField =
+        `<h4>Get the weather of <br> ANY city WORLDWIDE!</h4>
+        <form>
+        <input type="text" placeholder="Enter the city here" id="citySearch">
+        <br>
+        <button type="button" id ="searchButton">Search</button>
+        </form>
+        `
+        let searchContainer = document.querySelector(".searchContainer");
+        searchContainer.innerHTML += searchInputField;
+        return searchInputField;
     }
 }
 
