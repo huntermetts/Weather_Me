@@ -1,5 +1,5 @@
 # WeatherMe
-An application to keep find the weather of any city in the world!
+An application to find the weather of any city in the world!
 
 ![](weather_me.gif)
 
